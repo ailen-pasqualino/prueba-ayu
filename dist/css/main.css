@@ -360,10 +360,10 @@ btn:focus, .btn-outline-primary:focus, .btn-outline-primary:hover {
 }
 
 #calendar a .day-name {
+  display: block!important;
   font: 400 0.9rem "Inter", sans-serif;
   color: var(--bs-gray-600);
   margin-bottom: 1rem;
-  display: block;
 }
 
 #calendar a:focus, #calendar a:hover {
